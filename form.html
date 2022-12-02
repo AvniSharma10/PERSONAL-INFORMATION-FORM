@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INFO FORM</title>
+    <style>
+        form{
+            background-color: black;
+            border: 3px solid rgb(254, 249, 249);
+            font: italic;
+            color: rgb(193, 185, 239);
+            margin: 10px;
+            padding:1cm;
+        }
+        #name,#edu,#no,#date,#gender,#hobby,#fam,#car{
+            color: rgb(7, 5, 7);
+        }
+        .btn{
+            width: 5cm;
+            height: 1cm;
+            border-radius: 1cm;
+        }
+    img{
+        height: 5cm;
+        width: 5cm;
+    
+    }
+    </style>
+</head>
+<body>
+    <!-- <table>
+        <thead>
+            <tr>
+                <th>Full Name</th><br>
+                <th>Highest Level Education comleted</th><br>
+                <th>phone number</th><br>
+                <th>birth date(dd/mm/yyyy)</th><br>
+                <th>gender</th><br>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+<br>
+                <td>Avni Sharma</td><br>
+                <td>high school</td><br>
+                <td>1248365893</td><br>
+                <td>10/08/2002</td>
+                <td>f</td><br>
+            </tr>
+            <tr>
+                <td>Angel Sharma</td><br>
+                <td>3rd grade</td><br>
+                <td>3082489359</td><br>
+                <td>22/03/2013</td><br>
+                <td>f</td><br>
+            </tr>
+            <tr>
+                <td>Lorem, ipsum.</td><br>
+                <td>post graduation</td><br>
+                <td>4290852374590</td><br>
+                <td>22/6/2008</td><br>
+                <td>m</td><br>
+            </tr>
+
+        </tbody>
+    </table> -->
+    <h4>A RANDOM IMAGE FOR YOU ;)!!! <br>REFRESH THIS PAGE FOR ANOTHER PIC!!!
+    </h4>
+<img src="https://source.unsplash.com/random" alt="Check you internet connection" width="200" height="150">
+
+    <form action="backend.java">
+
+      <div>
+        <label for="name">Name:</label>
+        <input type="text" id="name">
+    </div><br>
+
+       <div>
+        <label for="edu">Highest Level Education completed:</label>
+        <input type="text" id="edu">
+       </div><br>
+
+       <div>
+        <label for="no">phone number:</label>
+        <input type="number" id="no">
+     </div><br>
+
+      <div>
+        <label for="date">Birth Date: </label>
+        <input type="date" name="" id="date">
+      </div><br>
+
+      <div>
+        <label for="gender">Gender: </label> <br> 
+        female<input type="radio" name ="Mygender">
+         Male <input type="radio" name ="Mygender">
+         Other <input type="radio" name ="Mygender" id="gender">
+      </div><br>
+
+      <div>
+        <label for="hobby">What are your hobbies? :</label>
+       <br><textarea name="mytext " cols="90" rows="3" id="hobby"></textarea>
+      </div><br>
+
+    <div>
+        <label for="fam">family</label>
+        <select name="myfam" id="fam">
+           <option value="J">JOINT</option>
+           <option value="N" selected>NEUTRAL</option>
+        </select>
+    </div><br>
+     
+    <div>
+        <label for="car">Car</label>
+        <select name="mycar" id="car">
+            <option value="ind" selected>Indica</option>
+            <option value="swi">swift</option>
+            <option value="pio">Scorpio</option>
+            <option value="i10">i10</option>
+            <option value="no">Other means of tranport</option>
+
+
+        </select>
+    </div><br>
+      <div>
+        <button class="btn">Submit</button>
+        <button class="btn">Reset</button>
+    </div>
+       
+
+    </form>
+    <img src="https://www.shutterstock.com/image-vector/thank-you-doodle-style-vector-600w-1349384768.jpg" alt="OOPS!!!" width="100" height="100">
+
+</body>
+</html>
